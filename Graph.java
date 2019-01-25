@@ -15,7 +15,7 @@ public class Graph{
 
                 try{
 
-                        BufferedReader br = new BufferedReader( new FileReader("/Users/nata/Applications/interview/ThoughtWorks/FirstTask/input.txt"));
+                        BufferedReader br = new BufferedReader( new FileReader("input.txt"));
                         String str;
                         while (( str = br.readLine())!=null){
                                 String[] tokens = str.replaceAll("\\s","").split(",");
